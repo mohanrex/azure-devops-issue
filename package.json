@@ -1,0 +1,39 @@
+{
+  "name": "azure-devops-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanrex/azure-devops-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanrex/azure-devops-issue/issues"
+  },
+  "homepage": "https://github.com/mohanrex/azure-devops-issue#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "cobertura"
+    ]
+  },
+  "dependencies": {
+    "jest": "^28.0.0"
+  }
+}
